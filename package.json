@@ -1,0 +1,33 @@
+{
+  "name": "strapi-provider-upload-google-storage",
+  "version": "1.0.4",
+  "description": "SFTP provider for Strapi CMS file upload.",
+  "strapi": {
+    "isProvider": true
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "keywords": [
+    "google",
+    "strapi",
+    "provider",
+    "file upload"
+  ],
+  "author": {
+    "email": "hbgaldino@gmail.com",
+    "name": "Higor Galdino",
+    "url": "https://github.com/hbgaldino"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hbgaldino/strapi-provider-upload-google-storage.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/storage": "^2.5.0",
+    "@sindresorhus/slugify": "^0.9.1",
+    "fast-crc32c": "^1.0.4"
+  }
+}
